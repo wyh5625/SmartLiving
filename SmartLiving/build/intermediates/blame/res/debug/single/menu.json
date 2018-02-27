@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\menu\\lighting_manager.xml",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\menu\\lighting_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\humidity_control\\build\\intermediates\\bundles\\default\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\menu\\recipe.xml",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\menu\\recipe.xml"
+    }
+]

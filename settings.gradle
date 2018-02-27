@@ -1,0 +1,2 @@
+include ':seekArc_library', ':humidity_control', ':power_consumption_report'
+include ':smartLiving'

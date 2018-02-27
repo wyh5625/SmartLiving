@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\light_button_bg.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\drawable-xxhdpi\\light_button_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\humidity_control.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\drawable-xxhdpi\\humidity_control.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\recipe_difficulty.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\drawable-xxhdpi\\recipe_difficulty.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\light_button_icon.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\drawable-xxhdpi\\light_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\light_setting_icon.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\drawable-xxhdpi\\light_setting_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\lighting_manager.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\drawable-xxhdpi\\lighting_manager.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\recipe_icon.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\drawable-xxhdpi\\recipe_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\report.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\drawable-xxhdpi\\report.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\recipe_time.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\drawable-xxhdpi\\recipe_time.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\flat_floor_plan.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\drawable-xxhdpi\\flat_floor_plan.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\recipe_serve.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\drawable-xxhdpi\\recipe_serve.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    }
+]

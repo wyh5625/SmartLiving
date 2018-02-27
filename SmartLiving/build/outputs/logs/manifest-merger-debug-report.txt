@@ -1,0 +1,195 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:2:1-55:12
+	package
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [SmartLiving:seekArc_library:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\seekArc_library\build\intermediates\bundles\default\AndroidManifest.xml:30:5-32:41
+MERGED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Matthew\.android\build-cache\6620f3bd13129011a11b98ff14edb18f25dbf0f8\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Matthew\.android\build-cache\f08007227f3918ac69468f8f04ac73f9016c007c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Matthew\.android\build-cache\c8c3fd87b85fd51db41f0924579673c6a9ed3e8b\output\AndroidManifest.xml:20:5-44
+MERGED from [SmartLiving:power_consumption_report:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\power_consumption_report\build\intermediates\bundles\default\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Matthew\.android\build-cache\94a97844fc7d3ed2a21c29cb6e29bac314b4cf03\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Matthew\.android\build-cache\0395575893bfbb2a9cd79a347181dc5ae25d7984\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Matthew\.android\build-cache\69276420c082f0582121bc5a33768e06c3e214f3\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Matthew\.android\build-cache\d1818a4d7bdf32966faca85d90eedb576fe0692c\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Matthew\.android\build-cache\1a6ac63eacbcfc5f847eb8c13aa267169a259c1c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Matthew\.android\build-cache\dd5974e1fd79d0914582aa13ab7ab5f0b2c07d15\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Matthew\.android\build-cache\74ae2e10011fb2bbe1598e804cd34a4fba4aab69\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Matthew\.android\build-cache\41c2b8c87e0660065a8d422d50873439f5033ff4\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Matthew\.android\build-cache\14029a9aadcea75d1d7e7344bf4fa02ff3b3bbaa\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Matthew\.android\build-cache\b1ccd85287ecb0ccd27b3c0f6cf97c73ebbb4f7f\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Matthew\.android\build-cache\6620f3bd13129011a11b98ff14edb18f25dbf0f8\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:11:5-81
+MERGED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:13:5-80
+MERGED from [SmartLiving:power_consumption_report:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\power_consumption_report\build\intermediates\bundles\default\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:13:22-77
+application
+ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:15:5-53:19
+MERGED from [SmartLiving:seekArc_library:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\seekArc_library\build\intermediates\bundles\default\AndroidManifest.xml:34:5-38:19
+MERGED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:11:5-40:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Matthew\.android\build-cache\6620f3bd13129011a11b98ff14edb18f25dbf0f8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Matthew\.android\build-cache\c8c3fd87b85fd51db41f0924579673c6a9ed3e8b\output\AndroidManifest.xml:26:5-20
+MERGED from [SmartLiving:power_consumption_report:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\power_consumption_report\build\intermediates\bundles\default\AndroidManifest.xml:11:5-27:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Matthew\.android\build-cache\94a97844fc7d3ed2a21c29cb6e29bac314b4cf03\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Matthew\.android\build-cache\0395575893bfbb2a9cd79a347181dc5ae25d7984\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Matthew\.android\build-cache\69276420c082f0582121bc5a33768e06c3e214f3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Matthew\.android\build-cache\d1818a4d7bdf32966faca85d90eedb576fe0692c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Matthew\.android\build-cache\1a6ac63eacbcfc5f847eb8c13aa267169a259c1c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Matthew\.android\build-cache\dd5974e1fd79d0914582aa13ab7ab5f0b2c07d15\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Matthew\.android\build-cache\74ae2e10011fb2bbe1598e804cd34a4fba4aab69\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Matthew\.android\build-cache\41c2b8c87e0660065a8d422d50873439f5033ff4\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Matthew\.android\build-cache\14029a9aadcea75d1d7e7344bf4fa02ff3b3bbaa\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Matthew\.android\build-cache\b1ccd85287ecb0ccd27b3c0f6cf97c73ebbb4f7f\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:18:9-41
+	android:supportsRtl
+		ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:13:9-35
+	android:allowBackup
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:16:9-35
+	android:icon
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:17:9-45
+	android:persistent
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:14:9-40
+activity#com.example.smartliving.MainActivity
+ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:20:9-31:20
+	android:screenOrientation
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:23:13-49
+	android:label
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:22:13-45
+	android:theme
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:21:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:28:27-74
+activity#com.example.smartliving.LightingManagerActivity
+ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:32:9-37:59
+	android:screenOrientation
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:36:13-50
+	android:label
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:35:13-45
+	android:icon
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:34:13-54
+	android:theme
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:37:13-56
+	android:name
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:33:13-52
+activity#com.example.smartliving.RecipeActivity
+ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:38:9-44:20
+	android:label
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:41:13-43
+	android:icon
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:40:13-49
+	android:theme
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:42:13-47
+	android:name
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:39:13-43
+activity#com.example.smartliving.RecipeFullListActivity
+ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:45:9-51:20
+	android:label
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:48:13-45
+	android:icon
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:47:13-49
+	android:theme
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:49:13-47
+	android:name
+		ADDED from C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\src\main\AndroidManifest.xml:46:13-51
+activity#com.example.william.myapplication.HumidityControlMainActivity
+ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:15:9-26:20
+	android:label
+		ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:18:13-45
+	android:icon
+		ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:17:13-46
+	android:name
+		ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:16:13-89
+activity#com.example.william.myapplication.Pop
+ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:27:9-29:59
+	android:theme
+		ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:28:13-65
+receiver#com.example.william.myapplication.NewAppWidget
+ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:31:9-39:20
+	android:name
+		ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:31:19-80
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:32:13-34:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:33:17-84
+	android:name
+		ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:33:25-81
+meta-data#android.appwidget.provider
+ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:36:13-38:63
+	android:resource
+		ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:38:17-60
+	android:name
+		ADDED from [SmartLiving:humidity_control:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\AndroidManifest.xml:37:17-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Matthew\.android\build-cache\6620f3bd13129011a11b98ff14edb18f25dbf0f8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Matthew\.android\build-cache\f08007227f3918ac69468f8f04ac73f9016c007c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Matthew\.android\build-cache\c8c3fd87b85fd51db41f0924579673c6a9ed3e8b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Matthew\.android\build-cache\94a97844fc7d3ed2a21c29cb6e29bac314b4cf03\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Matthew\.android\build-cache\0395575893bfbb2a9cd79a347181dc5ae25d7984\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Matthew\.android\build-cache\69276420c082f0582121bc5a33768e06c3e214f3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Matthew\.android\build-cache\d1818a4d7bdf32966faca85d90eedb576fe0692c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Matthew\.android\build-cache\1a6ac63eacbcfc5f847eb8c13aa267169a259c1c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Matthew\.android\build-cache\dd5974e1fd79d0914582aa13ab7ab5f0b2c07d15\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Matthew\.android\build-cache\74ae2e10011fb2bbe1598e804cd34a4fba4aab69\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Matthew\.android\build-cache\41c2b8c87e0660065a8d422d50873439f5033ff4\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Matthew\.android\build-cache\14029a9aadcea75d1d7e7344bf4fa02ff3b3bbaa\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Matthew\.android\build-cache\6620f3bd13129011a11b98ff14edb18f25dbf0f8\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Matthew\.android\build-cache\6620f3bd13129011a11b98ff14edb18f25dbf0f8\output\AndroidManifest.xml:26:9-47
+activity#com.example.william.powerconsumption.ReportMainActivity
+ADDED from [SmartLiving:power_consumption_report:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\power_consumption_report\build\intermediates\bundles\default\AndroidManifest.xml:15:9-26:20
+	android:label
+		ADDED from [SmartLiving:power_consumption_report:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\power_consumption_report\build\intermediates\bundles\default\AndroidManifest.xml:18:13-53
+	android:icon
+		ADDED from [SmartLiving:power_consumption_report:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\power_consumption_report\build\intermediates\bundles\default\AndroidManifest.xml:17:13-47
+	android:name
+		ADDED from [SmartLiving:power_consumption_report:unspecified] C:\Users\Matthew\StudioProjects\SmartLiving\power_consumption_report\build\intermediates\bundles\default\AndroidManifest.xml:16:13-83

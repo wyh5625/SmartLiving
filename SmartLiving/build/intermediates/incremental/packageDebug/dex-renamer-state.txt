@@ -1,0 +1,7 @@
+#Wed Apr 26 00:04:11 CST 2017
+base.0=C\:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a7acc0932797ebbcaf3b1e86c282aafbecaff08e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9feb2cb0a6ea315ded2f97f0f1b13a5cdc27fcbe\\classes.dex
+base.1=C\:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9feb2cb0a6ea315ded2f97f0f1b13a5cdc27fcbe
+file.0=C\:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a7acc0932797ebbcaf3b1e86c282aafbecaff08e\\classes.dex

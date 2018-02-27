@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matthew\StudioProjects\SmartLiving\power_consumption_report\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="80df8acf7ff72b3f58c5c3d1b3e0d7305c640f2b">
+        <dex dex="C:\Users\Matthew\StudioProjects\SmartLiving\power_consumption_report\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b41fe7b7c234e3798961df3948830caa8d7d9949\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matthew\StudioProjects\SmartLiving\power_consumption_report\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Matthew\StudioProjects\SmartLiving\power_consumption_report\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5d55630bbdc60985d08080780f625aed37151123\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a7acc0932797ebbcaf3b1e86c282aafbecaff08e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="23b682bcdb85041fcc85c451d2b9ef748ac17b1e">
+        <dex dex="C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9feb2cb0a6ea315ded2f97f0f1b13a5cdc27fcbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matthew\StudioProjects\SmartLiving\humidity_control\build\intermediates\bundles\default\libs\wheelview_1.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="290a94a5006033c6a182a37387e186a06133d15e">
+        <dex dex="C:\Users\Matthew\StudioProjects\SmartLiving\smartLiving\build\intermediates\transforms\dex\debug\folders\1000\8\wheelview_1.3.3_5d2d74d9b74928e8b0778f2c3e7c15ce1305cafb\classes.dex" />
+    </item>
+
+</items>

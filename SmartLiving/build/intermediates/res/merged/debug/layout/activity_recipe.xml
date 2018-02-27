@@ -1,0 +1,514 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".RecipeActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/layout"
+            android:clickable="true">
+            <ImageView
+                android:id="@+id/recipe_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/spanish_meatball_butter_bean_stew" />
+
+            <TextView
+                android:id="@+id/recipe_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spanish Meatball and Butter Bean Stew"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <RatingBar
+                    android:id="@+id/recipe_rating"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="5"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/num_of_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(48 ratings)" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:weightSum="1">
+
+
+                <ImageView
+                    android:id="@+id/recipe_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/recipe_time"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.1"
+                    android:layout_marginEnd="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.3">
+
+                    <TextView
+                        android:id="@+id/prepare_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:text="PREP: 15 MINS"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/cook_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:text="COOK: 35 MINS"
+                        android:textSize="10sp"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/recipe_difficulty"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/recipe_difficulty"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.1"
+                    android:layout_marginEnd="10dp" />
+
+                <TextView
+                    android:id="@+id/difficulty"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="EASY"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.2"
+                    android:textSize="10sp" />
+
+
+                <ImageView
+                    android:id="@+id/recipe_serve"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/recipe_serve"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.1"
+                    android:layout_marginEnd="10dp" />
+
+                <TextView
+                    android:id="@+id/serve"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="SERVES 3"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.2"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+
+            <TabHost
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tabHost">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <FrameLayout
+                        android:id="@android:id/tabcontent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/nutrition_list"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/header"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:weightSum="1">
+
+                                <TextView
+                                    android:id="@+id/nutrition"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Nutrition\n(per serving)"
+                                    android:textStyle="bold"
+                                    android:gravity="start"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"/>
+
+                                <TextView
+                                    android:id="@+id/nutrition_value"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Amount"
+                                    android:textStyle="bold"
+                                    android:gravity="end"
+                                    android:layout_gravity="end"
+                                    android:layout_weight="0.5"/>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="270dp"
+                                android:layout_height="2dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@android:color/holo_blue_light" />
+
+                            <LinearLayout
+                                android:id="@+id/kcal_layout"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:weightSum="1">
+
+                                <TextView
+                                    android:id="@+id/cal"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Calories"
+                                    android:gravity="start"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"/>
+
+                                <TextView
+                                    android:id="@+id/cal_value"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="435k"
+                                    android:gravity="end"
+                                    android:layout_gravity="end"
+                                    android:layout_weight="0.5"/>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="250dp"
+                                android:layout_height="1dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@android:color/darker_gray" />
+
+                            <LinearLayout
+                                android:id="@+id/fat_layout"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:weightSum="1">
+
+                                <TextView
+                                    android:id="@+id/fat"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Total Fat"
+                                    android:gravity="start"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"/>
+
+                                <TextView
+                                    android:id="@+id/fat_value"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="15g"
+                                    android:gravity="end"
+                                    android:layout_gravity="end"
+                                    android:layout_weight="0.5"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/saturated_fat_layout"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:weightSum="1">
+
+                                <TextView
+                                    android:id="@+id/saturated_fat"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Saturated Fat"
+                                    android:gravity="end"
+                                    android:layout_gravity="end"
+                                    android:layout_weight="0.5"/>
+
+                                <TextView
+                                    android:id="@+id/saturated_fat_value"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="5g"
+                                    android:gravity="end"
+                                    android:layout_gravity="end"
+                                    android:layout_weight="0.5"/>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="250dp"
+                                android:layout_height="1dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@android:color/darker_gray" />
+
+                            <LinearLayout
+                                android:id="@+id/carbs_layout"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:weightSum="1">
+
+                                <TextView
+                                    android:id="@+id/carbs"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Cholesterol"
+                                    android:gravity="start"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"/>
+
+                                <TextView
+                                    android:id="@+id/carbs_value"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="35g"
+                                    android:gravity="end"
+                                    android:layout_gravity="end"
+                                    android:layout_weight="0.5"/>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="250dp"
+                                android:layout_height="1dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@android:color/darker_gray" />
+
+                            <LinearLayout
+                                android:id="@+id/sugars_layout"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:weightSum="1">
+
+                                <TextView
+                                    android:id="@+id/sugars"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sugars"
+                                    android:gravity="start"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"/>
+
+                                <TextView
+                                    android:id="@+id/sugars_value"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="22g"
+                                    android:gravity="end"
+                                    android:layout_gravity="end"
+                                    android:layout_weight="0.5"/>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="250dp"
+                                android:layout_height="1dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@android:color/darker_gray" />
+
+                            <LinearLayout
+                                android:id="@+id/fibre_layout"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:weightSum="1">
+
+                                <TextView
+                                    android:id="@+id/fibre"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Fibre"
+                                    android:gravity="start"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"/>
+
+                                <TextView
+                                    android:id="@+id/fibre_value"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="12g"
+                                    android:gravity="end"
+                                    android:layout_gravity="end"
+                                    android:layout_weight="0.5"/>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="250dp"
+                                android:layout_height="1dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@android:color/darker_gray" />
+
+                            <LinearLayout
+                                android:id="@+id/protein_layout"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:weightSum="1">
+
+                                <TextView
+                                    android:id="@+id/protein"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Protein"
+                                    android:gravity="start"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"/>
+
+                                <TextView
+                                    android:id="@+id/protein_value"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="33g"
+                                    android:gravity="end"
+                                    android:layout_gravity="end"
+                                    android:layout_weight="0.5"/>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="250dp"
+                                android:layout_height="1dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@android:color/darker_gray" />
+
+                            <LinearLayout
+                                android:id="@+id/salt_layout"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:weightSum="1">
+
+                                <TextView
+                                    android:id="@+id/salt"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Salt"
+                                    android:gravity="start"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"/>
+
+                                <TextView
+                                    android:id="@+id/salt_value"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="1.3g"
+                                    android:gravity="end"
+                                    android:layout_gravity="end"
+                                    android:layout_weight="0.5"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:id="@+id/ingredients"
+                            android:layout_width="270dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp">
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/method"
+                            android:layout_width="300dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp">
+
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </TabHost>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

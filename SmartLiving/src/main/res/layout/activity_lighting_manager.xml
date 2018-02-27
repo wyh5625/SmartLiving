@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".LightingManagerActivity" 
+    android:id="@+id/light_manager">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/flat_floor_plan" />
+
+    
+      <ProgressBar
+	    android:id="@+id/light1"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:max="100"
+	    android:progress="0"
+	    android:progressDrawable="@drawable/light_button"
+	    android:background="@drawable/light_button_bg"
+		android:rotation="270"
+  	/>
+    
+    <ProgressBar
+	    android:id="@+id/light2"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:max="100"
+	    android:progress="0"
+	    android:progressDrawable="@drawable/light_button"
+	    android:background="@drawable/light_button_bg"
+		android:rotation="270"
+  	/>
+
+	<ProgressBar
+	    android:id="@+id/light3"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:max="100"
+	    android:progress="0"
+	    android:progressDrawable="@drawable/light_button"
+	    android:background="@drawable/light_button_bg"
+		android:rotation="270"
+  	/>
+	
+	<ProgressBar
+	    android:id="@+id/light4"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:max="100"
+	    android:progress="0"
+	    android:progressDrawable="@drawable/light_button"
+	    android:background="@drawable/light_button_bg"
+		android:rotation="270"
+  	/>
+	
+	<ProgressBar
+	    android:id="@+id/light5"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:max="100"
+	    android:progress="0"
+	    android:progressDrawable="@drawable/light_button"
+	    android:background="@drawable/light_button_bg"
+		android:rotation="270"
+  	/>
+</RelativeLayout>

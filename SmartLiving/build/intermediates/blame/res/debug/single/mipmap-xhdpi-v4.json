@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\guitar.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\power_consumption_report\\build\\intermediates\\bundles\\default\\res\\mipmap-xhdpi-v4\\guitar.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\humidity.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\humidity_control\\build\\intermediates\\bundles\\default\\res\\mipmap-xhdpi-v4\\humidity.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher_round.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\humidity_control\\build\\intermediates\\bundles\\default\\res\\mipmap-xhdpi-v4\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\humidity_control\\build\\intermediates\\bundles\\default\\res\\mipmap-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\smartLiving\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\power.png",
+        "source": "C:\\Users\\Matthew\\StudioProjects\\SmartLiving\\power_consumption_report\\build\\intermediates\\bundles\\default\\res\\mipmap-xhdpi-v4\\power.png"
+    }
+]

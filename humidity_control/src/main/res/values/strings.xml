@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Humicon</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="fire">Yes</string>
+    <string name="dialog_fire_missiles">Are you sure to switch off the machine?</string>
+    <string name="cancel">No</string>
+</resources>

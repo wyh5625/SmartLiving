@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:background="@drawable/rect"
+        android:orientation="horizontal"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:scaleType="fitCenter">
+
+
+        <LinearLayout
+            android:id="@+id/info_widget"
+            android:layout_width="111dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:adjustViewBounds="true"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:background="@drawable/humidity_icon"
+                android:scaleType="fitCenter" />
+
+            <Button
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:background="@drawable/bucket"
+                android:scaleType="fitCenter" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_humi"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0.5"
+                android:text="88%"
+                android:textAlignment="center"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/text_store"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="0.5"
+                android:text="30%"
+                android:textAlignment="center"
+                android:textSize="50dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:context="com.example.william.myapplication.HumidityControlMainActivity">
+
+        <android.support.v4.view.PagerTabStrip
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="top"
+            android:textAppearance="@style/PagerTabStripText" />
+
+
+    </android.support.v4.view.ViewPager>
+
+
+</LinearLayout>
